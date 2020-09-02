@@ -1,0 +1,29 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+.navbar-brand {
+    background-color: #ffffff;
+}
+
+#logo {
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    margin-left: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size: 24px
+    font-weight: bold;
+    color: #fff;
+    background-color: #4aaaa5;
+}
+
+@media (max-width: 600px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
