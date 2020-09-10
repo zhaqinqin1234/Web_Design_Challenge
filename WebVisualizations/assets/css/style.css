@@ -22,6 +22,51 @@ html {
     background-color: #4aaaa5;
 }
 
+.description-header {
+    /* Positioning */
+    margin-bottom: 40px;
+    font-family: serif, Georgia, Times;
+  
+    /* Typography */
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+    
+  }
+
+  #imageNav-area {
+    width: 100%;
+  
+    /* Box-model */
+    padding: 30px 30px 43px;
+  
+    /* Positioning */
+    margin-top: 33px;
+  
+    /* Visual */
+    background-color: lightblue;
+  }
+  
+  .imageNav-header {
+    /* Positioning */
+    margin-bottom: 15px;
+    font-family: serif, Georgia, Times;
+  
+    /* Typography */
+    font-size: 28px;
+    font-weight: bold;
+    color: cornflowerblue;
+  }
+  
+  #images {
+    /* Box-model */
+    padding-top: 13px;
+  
+    /* Typography */
+    text-align: center;
+  }
+  
+
 @media (max-width: 600px) {
     .navbar li {
       padding: 10px;
